@@ -1,0 +1,128 @@
+<html> 
+<title >    web dev                </title>
+<link rel="shortcut icon" href="img.jpg" type="image/x-icon">
+<link rel="stylesheet" href="basic.css">
+
+
+<body>
+    
+<h1   style="text-align: center; color: rgb(48, 12, 148)  ;"  > welcome</h1>
+<p style="font-size: 40px;text-align: center;"  >madhan coder</p>
+<hr>
+
+    
+<img src="img.jpg" alt="minion" align="right">  
+<body>
+ 
+  
+
+<pre>
+
+<a href="#m1"> go to web html</a>
+<a href="#m2"> go to text formating</a>
+<a href="#m3"> go to font</a>
+<a href="#m4"> html color</a>
+</pre>
+</body>
+
+<a href="www.google.com">website link</a>
+<p id="m1" title="tittle attributes ">web html</p>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<pre>
+    
+<h1 id="m2">text formating</h1>
+<b>BOLD</b>
+<STrong>STRONG</STrong>
+<I>ITALIC</I>
+<Em>EMPHASIS</Em>
+<mark   >MARK</mark>
+<del>delete</del>
+<ins>instruction</ins>
+<sub>subscript</sub>
+<sup>super script</sup>
+</pre>
+<hr >
+
+<h1 id="m3">BORDER</h1>
+<pre>
+ <blockquote>BLOCK QUET</blockquote>
+ <q>quatation</q>
+ <abbr title="smart madhan ece">SME</abbr>
+ 
+ <cite>cite</cite>
+ <bdo dir="r+1">welcome</bdo>
+ </pre>
+ <hr>
+
+ 
+<h1 id="m4">HTML LINK</h1>
+ <a href="www.google.com" target="_blank">click to another Tab</a> <!--another tab open-->
+ <a href="mailto:madhanmew3@gmail.com">sent mail </a>
+ <button onclick="document.location='default.asp'">button</button>
+ <hr>
+</body>
+<hr>
+<body>
+    
+<style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Link Colors</h2>
+    
+    <p>You can change the default colors of links</p>
+    
+    <a href="html_images.asp" target="_blank">HTML Images</a> 
+    
+    </body>
+
+<hr>
+<body>
+  <h1> image HTML</h1>
+  <img src="img2.jpg" alt="image pixel " width="500" height="500">
+  <img src="img2.jpg" alt="style option" style="width: 128px;height: 128px;">
+  <p>
+    <img src="img3.jpg" style="float: right;width: 200px;height: 200px ; alt="right";>
+  </p>
+</body>
+
+<hr>
+<body>
+  <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+  <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjGtIS9mJj-AhWTAHIKHfFlDKcYABAOGgJzZg&ohost=www.google.com&cid=CAASJeRo9XZwV1vfqlwyTS4liwh_ngunkiSn6izhBL5NQ34QsBubKsE&sig=AOD64_3odpAmz3kHfQwKLvysSSTdvulPXA&ctype=5&q=&ved=2ahUKEwjdn_68mJj-AhU4SWwGHVIODxcQwg8oAXoECAgQEw&adurl= "  target:"_blank"">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+  </map>
+  <hr>
+  
+</html>
